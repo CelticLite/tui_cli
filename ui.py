@@ -301,7 +301,7 @@ class FilePickerScreen(ModalScreen):
         supported_extensions = {
             ".py", ".md", ".txt", ".json", ".yaml", ".yml",
             ".toml", ".cfg", ".ini", ".csv", ".xml", ".html",
-            ".js", ".ts", ".css", ".sh", ".bash", ".zsh"
+            ".js", ".ts", ".css", ".sh", ".bash", ".zsh", ".sql"
         }
         return file_path.suffix.lower() in supported_extensions
     
